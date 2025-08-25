@@ -42,6 +42,7 @@ function renderImages() {
         let img = document.createElement("img");
         // console.log(currentImage)
         img.src = `./assets/${currentImage}.jpg`
+		img.className=currentImage;
         imageContainer.appendChild(img)
         img.addEventListener("click", () => {
             clickedImages.push(currentImage)
