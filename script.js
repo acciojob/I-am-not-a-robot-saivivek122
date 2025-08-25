@@ -83,6 +83,7 @@ verifyButton.addEventListener("click", () => {
 resetButton.addEventListener("click", () => {
     // shuffleArray(finalArray);
     // renderImages()
+	clickedImages=[];
     imageContainer.innerHTML = ""
     renderImages()
 
